@@ -17,7 +17,7 @@ struct WebView: UIViewRepresentable{
 }
 ```
 
-1. Now, in the WebView block, we need to create some classes, functions and variables.
+3. Now, in the WebView block, we need to create some classes, functions and variables.
 
 ```swift
 let urlString: String // Here we receive the url to load in the WebView container
@@ -72,7 +72,7 @@ func makeUIView(context: Context) -> WKWebView {
 } 
 ```
 
-1. Now we go to our ViewComponent and add the new WebView componet
+4. Now we go to our ViewComponent and add the new WebView componet
 
 ```swift
 struct ContentView: View {
